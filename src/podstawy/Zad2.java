@@ -1,3 +1,5 @@
+package podstawy;
+
 //02.12.2024
 public class Zad2 {
     public static void main(String[] args) {

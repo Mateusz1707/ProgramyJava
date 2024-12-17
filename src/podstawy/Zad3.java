@@ -1,3 +1,5 @@
+package podstawy;
+
 public class Zad3 {
     public static void main(String[] args) {
         int wiekszyTrojkat = 4;

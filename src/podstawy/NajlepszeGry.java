@@ -1,3 +1,5 @@
+package podstawy;
+
 public class NajlepszeGry { //Zadanie 1
     public static void main(String[] args) {
         System.out.print("Według mnie najlepsze gry to:\n");

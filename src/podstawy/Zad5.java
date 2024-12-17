@@ -1,4 +1,6 @@
-public class Zad6 {
+package podstawy;
+
+public class Zad5 {
     public static void main(String[] args) {
         int szerokoscPom1i2 = 3;
         int dlugoscPom1i2 = 4;
@@ -13,7 +15,9 @@ public class Zad6 {
         powierzchniaPom4 = szerokoscPom4 * dlugoscPom4;
         powierzchniaMieszkania = 2*powierzchniaPom1i2 + powierzchniaPom3 + powierzchniaPom4;
 
-        double na1osobe = (double) powierzchniaMieszkania / 4;
-        System.out.println("Na jedną osobę przypada " + na1osobe + " metra kwadratowego.");
+        System.out.println("Powierzchnia pomieszczenia 1 i 2: " + powierzchniaPom1i2);
+        System.out.println("Powierzchnia pomieszczenia 3: " + powierzchniaPom3);
+        System.out.println("Powierzchnia pomieszczenia 4: " + powierzchniaPom4);
+        System.out.println("Powierzchnia całego mieszkania: " + powierzchniaMieszkania);
     }
 }
